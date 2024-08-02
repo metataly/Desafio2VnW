@@ -1,0 +1,57 @@
+body{
+    background-color: black;
+    color: whitesmoke;
+    font-family: cursive;
+    text-align: justify;
+}
+main{
+    margin-left: 20px;
+}
+img{
+    width: 250px;
+    border-radius: 100%;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#gif{
+    margin: 0;
+    border-radius: 0;
+    width: 100px;
+    padding-left: 10vw;
+}
+
+#nome{
+    &::first-letter{
+    font-style: italic;
+    font-family: Parisienne;
+    font-size: 70px;
+    color: #fd72bc;
+    }
+}
+h1{
+    color: pink;
+}
+a {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 20px;
+  text-decoration: none;
+  color: pink;
+  
+  &:hover {
+    text-decoration: underline;
+    color:#fd72bc
+  }
+  &:visited {
+    text-decoration: none;
+  }
+}
+section{
+    margin-top: 70px;
+}
+footer{
+    text-align: center;
+    color: #fd72bc;
+    font-size: 13px;
+    margin-top: 5%;
+}
